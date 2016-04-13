@@ -10,15 +10,9 @@ void setup() {
 }
  
 void loop() {
- 
  ldrValor = analogRead(ldrPin);
- 
- 
  if (ldrValor>= 400) digitalWrite(ledPin,HIGH);
-
  else digitalWrite(ledPin,LOW);
- 
- 
  Serial.println(ldrValor);
  delay(100);
 }
