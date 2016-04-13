@@ -1,7 +1,7 @@
 //Sensor de luz
  
 int ledPin = 7; //Led no pino 7
-int ldrPin = 0; //LDR no pino analígico 8
+int ldrPin = 0; //LDR no pino analígico 0
 int ldrValor = 0; //Valor lido do LDR
  
 void setup() {
